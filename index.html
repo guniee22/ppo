@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keyword" content="bag,handbag,totebag">
+        <meta name="description" content="bag,handbag,totebag">
+        <meta name="author" content="김보람">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:type" content="mobile">
+        <meta property="og:title" content="PPO-mybag">
+        <meta property="og:description" content="bag,handbag,totebag">
+        <meta property="og:image" content="http://guniee22.dothome.co.kr/bag/images/logo.png">
+        <meta property="og:url" content="http://guniee22.dothome.co.kr/bag/">
+        <title>PPO-mybag</title>
+        <link rel="icon" type="image/x-icon" href="images/pav.png">
+        <!-- favicon 크기 32px 32px 사이즈 png -->
+        <!-- 아이콘 스타일 css link 연결 -->
+        <!-- plugin 스타일 css link 연결 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!-- jQuery 이용하려면 jQuery 라이브러리 연결 -->
+        <!-- plugin jQuery 연결 -->
+        <link rel="stylesheet" href="css/common.css">
+        <script src="js/common.js"></script>
+        <style>
+            /* 내부 css
+            현재 문서에만 적용됨 */
+            .bx-wrapper{
+                box-shadow: none;
+            }
+            .slider-wrap2 .bx-wrapper .bx-pager{
+                display: none;
+            }
+            .slider-wrap2 .bx-wrapper .bx-controls-direction a{
+                width: 30px;
+                height: 100px;
+                background-color:transparent;
+
+            }
+            .slider-wrap2 .bx-wrapper .bx-prev{
+                background-image: url(images/arrow-left.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                top:45%;
+                left: 8%;
+            }
+            .slider-wrap2 .bx-wrapper .bx-prev:hover,
+            .slider-wrap2 .bx-wrapper .bx-prev:focus{
+                background-position: center;
+            }
+            .slider-wrap2 .bx-wrapper .bx-next{
+                background-image: url(images/arrow-right.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                top:45%;
+                right:8%;
+            }
+            .slider-wrap2 .bx-wrapper .bx-next:hover{
+                background-position: center;
+            } 
+            
+        </style>
+        <script>
+            // Javascript, jQuery 내부 script 작성
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    auto:true,
+                    controls:false,
+                });
+                $('.slider2').bxSlider({
+                    // auto:true,
+                    
+                });  
+                         
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header-wrap">
+                <h1>
+                    <a href="index.html"><img src="images/logo1.png" alt="로고"></a>
+                </h1>
+                <div class="m-gnb">
+                    <button class="m-bt">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="m-wrap">
+                        <button class="m-close">X</button>
+                        <div class="n-g">
+                            <a href="#">로그인</a>
+                            <a href="#">주문조회</a>
+                        </div>
+                        <div class="n-search">search 하는 구간 </div>
+                        <div class="n-menu">
+                            <a href="#">숄더/토트백</a>
+                            <a href="#">백팩</a>
+                            <a href="#">클러치</a>
+                            <a href="#">미니/크로스</a>
+                            <a href="#">지갑</a>
+                            <a href="#">파우치</a>
+                            <a href="#">캐주얼</a>
+                            <a href="#">에코백</a>
+                        </div>
+                        <div class="n-box">
+                            <div class="n-con">
+                                <p>지금 가입하셔서 5,000원 할인쿠폰 받아가세요</p>
+                            </div>
+                        </div>
+                        <div class="n-commu">
+                            <a href="#">공지사항</a>
+                            <a href="#">Q&A</a>
+                            <a href="#">자유게시판</a>
+                            <a href="#">인스타그램</a>
+                        </div>
+                    </div>
+                </div>
+                             
+            </div>
+        </header>
+        <div class="content">
+            <div class="slider-wrap">
+                <div class="slider">
+                    <div><img src="images/slide/s1-1.jpg" alt="슬라이더1"></div>
+                    <div><img src="images/slide/s1-2.jpg" alt="슬라이더2"></div>
+                    <div><img src="images/slide/s1-3.jpg" alt="슬라이더3"></div>
+                    <div><img src="images/slide/s1-4.jpg" alt="슬라이더4"></div>
+                </div>
+            </div>
+            <div class="slider-wrap2">
+                <div class="slider2">
+                    <div><img src="images/slide/s2-1.jpg" alt="슬라이더1"></div>
+                    <div><img src="images/slide/s2-2.jpg" alt="슬라이더2"></div>
+                    <div><img src="images/slide/s2-3.jpg" alt="슬라이더3"></div>
+                    <div><img src="images/slide/s2-4.jpg" alt="슬라이더4"></div>
+                </div>
+            </div>
+            <h2>NEW 신상품 <i class="fa fa-caret-down"></i></h2>
+            <div class="new-wrap">                
+                <div class="bag">
+                    <a href="#">
+                        <img src="images/newbag1.jpg" alt="스퀘어백">
+                        <h3>[NEW] 스퀘어백</h3>
+                        <div class="bag-text">단정한 스타일의<br> 모던한 가방</div>
+                        <p>58,000원</p>
+                    </a>
+                </div>
+                <div class="bag">
+                    <a href="#">
+                        <img src="images/newbag2.jpg" alt="토트백">
+                        <h3>[NEW] 토트백</h3>
+                        <div class="bag-text">넉넉한 사이즈로<br> 수납하기 좋은 가방</div>
+                        <p>68,000원</p>
+                    </a>
+                </div>
+            </div>
+            <div class="pick-wrap">
+                <div class="title">
+                    <div>MD's PICK</div>
+                    <p>무더운 여름에 가볍게 들기 좋은 아이템!</p>
+                </div>
+                <div class="pick-con">
+                    <div class="pick">
+                        <div class="pick-img">
+                            <img src="images/pickbag1.jpg" alt="터닝백">
+                        </div>
+                        <div class="pick-text">[Artificial]터닝백</div>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="pick">
+                        <div class="pick-img">
+                            <img src="images/pickbag2.jpg" alt="베일백">
+                        </div>
+                        <div class="pick-text">[Artificial]베일백</div>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="pick">
+                        <div class="pick-img">
+                            <img src="images/pick3.jpg" alt="앵크지갑">
+                        </div>
+                        <div class="pick-text">[Artificial]앵크지갑</div>
+                        <a href="#">VIEW</a>
+                    </div>
+                </div>
+                
+            </div>
+            <h2 class="tit">WEEKLY BEST 주간 베스트</h2>
+            <div class="best-wrap">
+                <div class="bag">
+                    <a href="#">
+                        <img src="images/best1.jpg" alt="스퀘어백">
+                        <h3>[NEW] 스퀘어백</h3>
+                        <div class="bag-text">단정한 스타일의<br> 모던한 가방</div>
+                        <p>58,000원</p>
+                    </a>
+                </div>
+                <div class="bag">
+                    <a href="#">
+                        <img src="images/best2.jpg" alt="토트백">
+                        <h3>[NEW] 토트백</h3>
+                        <div class="bag-text">넉넉한 사이즈로<br> 수납하기 좋은 가방</div>
+                        <p>68,000원</p>
+                    </a>
+                </div>
+            </div>
+            <div class="ss-wrap">
+                <h2 class="tit">2022 S/S 봄 여름 추천 아이템</h2>
+                <div class="ss-con">
+                    <div class="bag">
+                        <a href="#">
+                            <img src="images/ss1.jpg" alt="스퀘어백">
+                            <h3>[NEW] 스퀘어백</h3>
+                            <div class="bag-text">단정한 스타일의<br> 모던한 가방</div>
+                            <p>58,000원</p>
+                        </a>
+                    </div>
+                    <div class="bag">
+                        <a href="#">
+                            <img src="images/ss2.jpg" alt="토트백">
+                            <h3>[NEW] 토트백</h3>
+                            <div class="bag-text">넉넉한 사이즈로<br> 수납하기 좋은 가방</div>
+                            <p>68,000원</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-wrap">
+                <div class="box">
+                    <div class="box-title">REVIEW EVENT</div>
+                    <p>
+                        베스트 후기 10,000원 지급<br>
+                        포토리뷰 1,000원 &nbsp; 일반리뷰 500원
+                    </p>
+                </div>
+                <div class="box mem">
+                    <div class="box-title">MEMBER BENEFIT</div>
+                    <p>
+                        VIP 5% 할인 및 적립<br>
+                        신규회원 5,000원 쿠폰 지급 
+                    </p>
+                </div>
+            </div>
+            <div class="insta-wrap">
+                <div class="insta-title">INSTAGRAM</div>
+                <div class="insta-img">
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-1.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-2.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-3.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-4.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-5.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-6.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-7.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-8.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/">
+                            <img src="images/in-9.jpg" alt="인스타그램 사진">
+                        </a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrap">
+                <div class="info">
+                    상호 : PPO-mybag<br>
+                    주소 : 서울시 도봉구 방학동 <br>
+                    메일 : qhfka30604@naver.com <br>
+                    COPYRIGHT 2022 BY PPO-mybag ALL RIGHTS RESERVED  
+                </div>
+            </div>
+        </footer>
+    </body>
+</html> 

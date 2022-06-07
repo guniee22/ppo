@@ -1,0 +1,416 @@
+@charset "utf-8";
+
+html,body{
+    font-size:1em;
+    font-family: "맑은 고딕";
+    margin: 0;
+    color:black;
+}
+a{
+    text-decoration: none;
+    color: #707070;
+}
+a:hover{
+    color: #707070;
+}
+img{
+    vertical-align: bottom;
+}
+table,td,th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background-color:white;
+}
+.header-wrap{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+h1{
+    /* border: 1px solid black; */
+    width: 250px;
+    margin:auto;
+}
+h1 img{
+    width: 100%;
+}
+.m-gnb{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border: none;
+}
+.m-bt{
+    background-color:transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.m-wrap{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    background-color:white;
+    top:0;
+    left:0;
+    z-index: 999999;
+    overflow: auto;
+    display: none;
+}
+.m-w-ani{
+    display: block;
+    transition: 0.5s;
+}
+.m-close{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 30px;
+    top:30px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+}
+.n-g{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+}
+.n-g a{
+    display: inline-block;
+    width: 100px;
+    height: 45px;
+    background-color: #FBDBDB;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.n-search{
+    width: 70%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+.n-menu{
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.n-menu a{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.n-box{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #FBDBDB;
+}
+.n-con{
+    text-align: center;
+    padding: 20px 0;
+}
+.n-commu{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.n-commu a{
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+.slider-wrap{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+.slider>div>img{
+    margin: auto;
+}
+
+.slider-wrap2{
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+}
+.slider2>div>img{
+    margin: auto;
+}
+
+
+h2{
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+.new-wrap{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    padding-bottom: 30px;
+}
+.bag{
+    width: 42%;
+    margin-top: 30px;
+}
+.bag a img{
+    width: 100%;
+}
+.bag a h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.bag-text{
+    text-align: center;
+    margin-top: 10px;
+}
+.bag a p{
+    text-align: center;
+    margin-top: 10px;   
+}
+.pick-wrap{
+    width: 100%;
+    height: auto;
+    background-color: #D5F3EE;
+    margin-top: 50px;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.title>div{
+    font-size: 20px;
+    color: #199D86;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.title>p{
+    color:#096B65;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.pick{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.pick-img{
+    width: 60%;
+    margin: auto;
+}
+.pick-img img{
+    width: 100%;
+}
+.pick-text{
+    margin-top: 20px;
+    text-align: center;
+    color: #707070;
+}
+.pick a{
+    display:block;
+    width: 70px;
+    height: 23px;
+    margin: auto;
+    background-color: #199d86;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.tit{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.best-wrap{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.fa-caret-down{
+    font-size: 1.2em;
+}
+
+.ss-wrap{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    /* display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    background-color:#FEF4F4;
+    padding: 20px 0 40px 0;
+    
+}
+.ss-con{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.tit-s{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 200px;
+}
+
+
+.box-wrap{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.box{
+    width: 80%;
+    margin: auto;
+    background-color: #D5F3EE;
+    padding: 20px 0 30px 0;
+    margin-bottom: 20px;
+}
+.box-title{
+    text-align: center;
+    font-size: 18px;
+}
+.box p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.box.mem{
+    background-color: #FEF4F4;
+}
+
+.insta-wrap{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.insta-title{
+    text-align: center;
+    font-size: 18px;
+}
+.insta-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+.insta{
+    width: 30%;
+    margin: 10px 12px 10px 0;
+    
+
+}
+.insta a img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color:#eee;
+}
+.footer-wrap{
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.info{
+    width:100%;
+    font-size: 14px;
+    padding: 10px 0 10px 20px;
+}
+
+@media screen and (min-width:1000px){
+    .new-wrap{
+        width: 60%;
+    }
+    .bag-text{
+        font-size: 14px;
+    }
+    .pick-con{
+        display: flex;
+    }
+    .best-wrap{
+        width: 60%;
+    }
+    .ss-con{
+        width: 75%;
+    }
+    .box{
+        width: 50%;
+    }
+    .insta-img{
+        width: 70%;
+        margin: auto;
+    }
+
+}
